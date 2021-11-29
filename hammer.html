@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Hammer</title>
+	<style type="text/css">
+
+		body{
+			height: 100vh;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			margin: 0;
+		}
+		
+		img{
+			width: 30em;
+
+			animation: myani 0.3s infinite ease-in-out alternate;
+		}
+
+		/*img:hover{
+			transform: rotate(-10deg);
+			transform-origin: bottom;
+		}*/
+
+		@keyframes myani{
+			from{
+				transform: rotate(0deg);
+				transform-origin: bottom;
+			}
+			to{
+				transform: rotate(-10deg);
+				transform-origin: bottom;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+	<img src="hammer.png" alt="hammer" />
+
+</body>
+</html>
